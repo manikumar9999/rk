@@ -62,7 +62,7 @@
       <artifactId>maven-war-plugin</artifactId>
       <version>3.1.0</version>
       </plugin>
-      <plugin>
+      
                <plugin>
               <groupId>org.codehaus.mojo</groupId>
               <artifactId>taglist-maven-plugin</artifactId>
@@ -70,7 +70,9 @@
           </reportPlugins>
         </configuration>
       </plugin>
-    </plugins><groupId>org.codehaus.mojo</groupId>
+    </plugins>
+<plugin>
+<groupId>org.codehaus.mojo</groupId>
               <artifactId>findbugs-maven-plugin</artifactId>
             </plugin>
 
