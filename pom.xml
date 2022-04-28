@@ -23,7 +23,7 @@
       <version>3.1.0</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
+ <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>javax.servlet.jsp-api</artifactId>
       <version>2.3.1</version>
@@ -45,11 +45,11 @@
       </exclusions>
     </dependency>
   </dependencies>
-  
+
   <build>
     <finalName>mk</finalName>
     <plugins>
-      <plugin>
+<plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.6.1</version>
@@ -65,5 +65,5 @@
 
     </plugins>
   </build>
-  
+
 </project>
