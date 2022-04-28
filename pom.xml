@@ -30,7 +30,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>org.glassfish.web</groupId>
+      <groupId>org.tomcat.web</groupId>
       <artifactId>javax.servlet.jsp.jstl</artifactId>
       <version>1.2.4</version>
       <exclusions>
